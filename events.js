@@ -6,10 +6,14 @@ let hoverCard = document.querySelector('[data-secret="hover"]');
 //  - The selector is hoverCard
 //  - The event type is mouseover
 {
+  hoverCard.addEventListener("click", function ()
     let image = document.querySelector('.hidden-image');
     image.style.width = '100%';
     image.style.height = '100%';
     image.style.opacity = '1';
+
+                            
+                            
 }
 
 // 2. Add an event listener to make the image hidden again.
